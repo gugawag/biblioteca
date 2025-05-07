@@ -1,7 +1,3 @@
-from aluno import Aluno
-from emprestimo import Emprestimo
-from livro import Livro
-
 class Biblioteca:
 
     def __init__(self, codigo, endereco):
@@ -33,6 +29,10 @@ class Biblioteca:
     def imprimir_alunos(self):
         for aluno in self.alunos:
             print(aluno)
+
+    def imprimir_livros(self):
+        for livro in self.livros:
+            print(livro)
 
     def imprimir_emprestimos_ativos(self):
         for emprestimo in self.emprestimos:

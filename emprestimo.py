@@ -1,5 +1,3 @@
-from aluno import Aluno
-
 class Emprestimo:
 
     def __init__(self, codigo, data_emprestimo, livros,
