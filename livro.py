@@ -46,4 +46,7 @@ class Livro:
     def set_genero(self, novo_genero):
         self.genero = novo_genero
 
+    def __str__(self):
+        return f'ISBN {self.isbn} - Título {self.titulo}'
+
 
